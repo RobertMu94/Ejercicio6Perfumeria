@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejercicio html+css+dom </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="Tabla()">
+    <header>
+        <div>
+            <h1>Empleado del mes</h1>
+        </div>
+    </header>
+    <div>
+        <img class="imagen"
+            src="https://st3.depositphotos.com/4966263/13353/v/450/depositphotos_133536694-stock-illustration-bearded-man-in-suit.jpg"
+            alt="" srcset="">
+        <img class="imagen1"
+            src="https://w7.pngwing.com/pngs/844/244/png-transparent-cartoon-business-women-child-people-public-relations.png"
+            alt="" srcset="">
+
+    </div>
+    <table id="salesTable"></table>
+    <div class="botones1">
+
+
+        <button class="btn1"  onclick="Guardarventas()">Guardar ventas</button>
+        <button class="btn2" onclick="Borrardatos()">Borrar ventas</button>
+    </div>
+    <div class="botones2">
+        <button class="result" onclick="Resultados()">Resultados del mes</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
